@@ -1,8 +1,6 @@
 import telebot
 from telebot.types import Message
 from lego import do_lego
-import os
-
 def ReadUser():
     global USERS
     j=0
