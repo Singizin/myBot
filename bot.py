@@ -1,6 +1,5 @@
 import telebot
 from telebot.types import Message
-from telebot import apihelper
 from lego import do_lego
 import os
 
@@ -16,7 +15,6 @@ def ReadUser():
         line = f.readline()
     return
 
-apihelper.proxy = {'https': 'https://149.56.102.220:3128'}
 #TOKEN = '747611758:AAEpFP3iLMCbtmrLF0omSyTnjP7d7CCIaPY'
 TOKEN='854025714:AAH9Wi3_rWfVJvjnbDgNWkL8hYCbH2Fr-wY'
 bot = telebot.TeleBot(TOKEN)
